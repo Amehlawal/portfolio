@@ -1,0 +1,192 @@
+  * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Roboto Mono', monospace;
+      background-color: #0f0f0f;
+      color: #fff;
+      display: flex;
+  flex-direction: column;
+    }
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+
+main {
+  flex: 1;
+}
+
+    a {
+      color: #FFD700;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      color: #ffffff;
+    }
+
+   .navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  background-color: #1a1a1a;
+  gap: 2rem; /* optional: controls space between logo and links */
+    text-align: center;
+}
+.logo {
+  margin-right: 2rem;
+}
+
+.navbar-links ul {
+  gap: 1.5rem;
+}
+
+
+    .logo a {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #FFD700;
+    }
+
+    .navbar-links ul {
+      list-style: none;
+      display: flex;
+      gap: 2rem;
+      margin: 0;
+      padding: 0;
+      flex-wrap: wrap;
+    }
+
+    .navbar-links li {
+      margin: 0.5rem 0;
+    }
+
+    .navbar-links a {
+      font-weight: 500;
+    }
+
+    .profile {
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+
+    .profile-intro h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: #FFD700;
+    }
+
+    .profile-intro p {
+      font-size: 1.2rem;
+      color: #ccc;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .social-icons {
+      margin-top: 2rem;
+    }
+
+    .social-icons a {
+      margin: 0 0.5rem;
+      font-size: 1.4rem;
+      color: #FFD700;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: transparent;
+      border: 2px solid #FFD700;
+      color: #FFD700;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+      margin-top: 2rem;
+      text-transform: uppercase;
+    }
+
+    .button:hover {
+      background-color: #FFD700;
+      color: #0f0f0f;
+    }
+
+    .projects {
+      text-align: center;
+      padding: 3rem 2rem;
+    }
+
+    .projects h2 {
+      color: #FFD700;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+
+    .projects ul {
+      list-style: none;
+      padding: 0;
+      max-width: 800px;
+      margin: 0 auto;
+      color: #ccc;
+    }
+
+    .projects li {
+      margin: 0.75rem 0;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #1a1a1a;
+      color: #ccc;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .navbar-links ul {
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .profile-intro h1 {
+        font-size: 2rem;
+      }
+
+      .profile-intro p {
+        font-size: 1rem;
+      }
+
+      .projects h2 {
+        font-size: 1.5rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .navbar {
+        padding: 1rem;
+      }
+
+      .profile {
+        padding: 3rem 1rem;
+      }
+
+      .projects {
+        padding: 2rem 1rem;
+      }
+
+      .social-icons a {
+        font-size: 1.2rem;
+      }
+    }

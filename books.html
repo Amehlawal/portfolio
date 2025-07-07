@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ameh Lawal – Books Read</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: 'Roboto Mono', monospace;
+      background-color: #0f0f0f;
+      color: #fff;
+      padding: 2rem;
+    }
+
+    h1, h2 {
+      color: #FFD700;
+    }
+
+    .category {
+      margin-bottom: 2rem;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 1rem;
+    }
+
+    li::before {
+      content: "📘 ";
+      margin-right: 0.5rem;
+    }
+
+    a {
+      color: #FFD700;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+
+  <nav class="navbar">
+    <div class="logo">
+      <a href="/">Ameh Lawal</a>
+    </div>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <h1>📚 Books I've Read</h1>
+  <p>A categorized list of books I’ve read for growth in Cybersecurity, Cloud, DevOps, and more.</p>
+
+  <div class="category">
+    <h2>🔐 Cybersecurity</h2>
+    <ul>
+      <li><a href="#">The Web Application Hacker’s Handbook</a></li>
+      <li><a href="#">Blue Team Field Manual</a></li>
+      <li><a href="#">Practical Malware Analysis</a></li>
+    </ul>
+  </div>
+
+  <div class="category">
+    <h2>☁️ Cloud Computing</h2>
+    <ul>
+      <li><a href="#">AWS Certified Solutions Architect Official Study Guide</a></li>
+      <li><a href="#">Azure Security Handbook</a></li>
+      <li><a href="#">Cloud Engineering for Beginners</a></li>
+    </ul>
+  </div>
+
+  <div class="category">
+    <h2>⚙️ DevOps & SRE</h2>
+    <ul>
+      <li><a href="#">The Phoenix Project</a></li>
+      <li><a href="#">Site Reliability Engineering (Google)</a></li>
+      <li><a href="#">The DevOps Handbook</a></li>
+    </ul>
+  </div>
+
+  <div class="category">
+    <h2>🕵️‍♂️ Forensics & Investigation</h2>
+    <ul>
+      <li><a href="#">Guide to Computer Forensics and Investigations</a></li>
+      <li><a href="#">Digital Forensics with Kali Linux</a></li>
+    </ul>
+  </div>
+
+  <div class="category">
+    <h2>📖 Others / Soft Skills</h2>
+    <ul>
+      <li><a href="#">Deep Work – Cal Newport</a></li>
+      <li><a href="#">Atomic Habits – James Clear</a></li>
+    </ul>
+  </div>
+
+</body>
+</html>
