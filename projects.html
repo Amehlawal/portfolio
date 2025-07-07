@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ameh Lawal – Cybersecurity & Cloud</title>
+  <title>Ameh Lawal – Software & Cloudd</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet"/>
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -29,21 +29,50 @@
 
   <main>
 
-    <section id="projects" class="projects">
-      <h2>Featured Projects</h2>
-      <p>Hands-on work in cloud, forensics, and cybersecurity.</p>
-      <ul>
-        <li><strong>Azure AD Lab</strong> – Managed role-based access and user provisioning</li>
-        <li><strong>Memory Dump Analysis</strong> – Used FTK and Volatility for malware triage</li>
-        <li><strong>AWS Cloud Resume</strong> – CI/CD with Route 53, Lambda, S3, and GitHub Actions</li>
-        <li><strong>SIEM Dashboard</strong> – Real-time threat visibility with Splunk and Azure Sentinel</li>
-      </ul>
-    </section>
+   <section id="projects" class="projects" style="padding: 4rem 2rem; background-color: #1a1a1a;">
+  <h2 style="text-align: center; color: #f1c40f; margin-bottom: 1rem;">Featured Projects</h2>
+  <p style="text-align: center; color: #ccc; margin-bottom: 3rem;">Hands-on solutions in cloud infrastructure, DevOps pipelines, and secure backend development.</p>
+  
+  <div class="project-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; max-width: 1000px; margin: auto;">
+    
+    <div class="project-card" style="background-color: #222; padding: 1.5rem; border-radius: 10px; color: #fff; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
+      <h3 style="color: #f1c40f;">AWS Cloud Resume Challenge</h3>
+      <p>Built a serverless portfolio site using S3, Route 53, Lambda, DynamoDB, and GitHub Actions.</p>
+      <a href="https://github.com/Amehlawal/aws-cloud-resume" target="_blank" style="color: #f1c40f;">View on GitHub →</a>
+    </div>
+
+    <div class="project-card" style="background-color: #222; padding: 1.5rem; border-radius: 10px; color: #fff; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
+      <h3 style="color: #f1c40f;">Azure AD Lab</h3>
+      <p>Configured user provisioning, role-based access control, and conditional access policies in Azure AD.</p>
+      <a href="https://github.com/Amehlawal/azure-ad-lab" target="_blank" style="color: #f1c40f;">View on GitHub →</a>
+    </div>
+
+    <div class="project-card" style="background-color: #222; padding: 1.5rem; border-radius: 10px; color: #fff; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
+      <h3 style="color: #f1c40f;">SIEM Threat Dashboard</h3>
+      <p>Deployed Splunk and Azure Sentinel for real-time threat detection and alert correlation.</p>
+      <a href="https://github.com/Amehlawal/siem-dashboard" target="_blank" style="color: #f1c40f;">View on GitHub →</a>
+    </div>
+
+    <div class="project-card" style="background-color: #222; padding: 1.5rem; border-radius: 10px; color: #fff; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
+      <h3 style="color: #f1c40f;">Memory Dump Forensics</h3>
+      <p>Performed malware triage on infected images using Volatility and FTK Imager.</p>
+      <a href="https://github.com/Amehlawal/memory-analysis" target="_blank" style="color: #f1c40f;">View on GitHub →</a>
+    </div>
+
+    <div class="project-card" style="background-color: #222; padding: 1.5rem; border-radius: 10px; color: #fff; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
+      <h3 style="color: #f1c40f;">DevOps API Pipeline</h3>
+      <p>Built a CI/CD pipeline for a .NET REST API using GitHub Actions, Docker, and Azure Web Apps.</p>
+      <a href="https://github.com/Amehlawal/devops-api-pipeline" target="_blank" style="color: #f1c40f;">View on GitHub →</a>
+    </div>
+
+  </div>
+</section>
+
 
   </main>
 
   <footer class="footer">
-    <p>© <span id="year"></span> Ameh Lawal. Built with passion for cloud and cybersecurity.</p>
+    <p>© <span id="year"></span> Ameh Lawal. Built with passion.</p>
   </footer>
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
